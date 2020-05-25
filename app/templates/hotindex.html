@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% from "bootstrap/pagination.html" import render_pagination %}
+
+{% block page_content %}
+    <div class="page-header">
+        <h1>热门微博</h1>
+    </div>
+    <div class="post-tabs">
+        {% include '_posts.html' %}
+    </div>
+    <div class="pagination">
+        {{ render_pagination(pagination, '.hotindex') }}
+    </div>
+{% endblock %}}
