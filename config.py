@@ -9,7 +9,7 @@ class Config:
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     FLASK_ADMIN = 'email@qq.com'
-    #FLASK_ADMIN = '2298770114@qq.com'
+   
     FLASK_POSTS_PER_PAGE = 15 #15#每一页显示15条微博
     MAX_POSTS_PER_PAGE = 50 #前50条微博里寻找热门微博
     MAIL_USE_SSL = True
